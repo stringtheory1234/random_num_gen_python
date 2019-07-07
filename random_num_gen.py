@@ -13,7 +13,7 @@ def RandGen():
     a = number1.get()
     b = number2.get()
     if a=='' or b=='' :
-        labelText.set("Empty")
+        labelText.set("Can't Leave a or b empty")
     elif int(a)>int(b) :
         labelText.set("b should be >= a")
     else :
